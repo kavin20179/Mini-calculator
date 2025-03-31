@@ -23,7 +23,8 @@ box-shadow: 0 0 10px black ;
         width: 80%;
         padding-bottom: 4px;
     }
-    
+.current{
+     padding-bottom: 2px;}
    
 }
 .display{
