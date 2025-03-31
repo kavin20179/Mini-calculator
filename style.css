@@ -1,0 +1,124 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('sun.jpg');
+}
+.calculator{
+  width: 25%;
+  height: 90vh;
+ background: transparent;
+  border: solid 1px rgb(231, 196, 0);
+  margin: 10px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 2%;
+box-shadow: 0 0 10px black ;
+}
+@media screen and (max-width: 500px) {
+    .calculator {
+        margin-top: 30%;
+        height: 50%;
+        padding-left: 5%;
+        width: 80%;
+        padding-bottom: 2px;
+    }
+    
+   
+}
+.display{
+    padding-left: 5px;
+   background-color: rgb(135, 117, 117);
+   margin-top:20px;
+   margin-left: 10px;
+   height: 20%;
+   width: 90%;
+   border-radius: 5px;
+   opacity: 40%;
+   color: white;
+}
+.current{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-left: 20%;
+    padding: 10px;
+    font-size: 30px;
+ width: 70%;
+ height: 50%;
+ border-radius: 10px;
+ border: none;
+ text-align: end;
+}
+.buttons{
+    padding-left: 5px;
+    margin: 5px; 
+}
+.one{
+    display: flex;
+justify-content: space-around;
+}
+.one button{
+ background: transparent;
+ color: white;
+ padding: 5px;
+ margin-top:10%;
+ width:40px;
+ height: 30px;
+ font-size:large;
+ 
+}
+.two{
+    display: flex;
+justify-content: space-around;
+}
+.two button{
+ background: transparent;
+ color: white;
+ padding: 5px;
+ margin-top: 15%;
+ height: 30px;
+ width: 40px;
+ font-size:large;
+}
+.three{
+    display: flex;
+justify-content: space-around;
+}
+.three button{
+ background: transparent;
+ color: white;
+ padding: 5px;
+ margin-top: 15%;
+ height: 30px;
+ width: 40px;
+ font-size:large;
+}
+.four{
+    display: flex;
+justify-content: space-around;
+}
+.four button{
+ background: transparent;
+ color: white;
+ padding: 5px;
+ margin-top:15%;
+ height: 30px;
+ width: 40px;
+ font-size:large;
+}
+.five{
+    display: flex;
+justify-content: space-around;
+}
+.five button{
+ background: transparent;
+ color: white;
+ padding: 5px;
+ margin-top: 15%;
+ height: 30px;
+ width: 40px;
+ font-size:large;
+}
+.equal{
+    width: 30%;
+}
